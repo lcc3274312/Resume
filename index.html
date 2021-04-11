@@ -2,14 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<title>宇洋的個人網頁</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 	<link href="css/css/all.css" rel="stylesheet">
-	
-	
 </head>
 <body>
 	
@@ -49,18 +48,18 @@
 	<section class="works">
 		<h2 class="workshead">過往作品</h2>
 		<div class="workspar">
-			<div class="worksch">
+			<div class="worksch one">
 				<img class="work-img" src="image/money.jpg" alt="貨幣轉換">
 				<div class="work-description">
 				<div class="work-description-inner">
-				<p class="work-text">
+				<p class="work-text ">
 					進入大學第一個製作的程式</br>
 					有著簡單的運算跟儲存記錄功能。</br>
 					使用工具:C語言</br>
 					<a href="download/1.pptx" class="button button-ghost">下載說明簡報</a>
 				</p></div></div>
 			</div>
-			<div class="worksch">
+			<div class="worksch two">
 				<img class="work-img" src="image/map.jpg" alt="大富翁遊戲">
 				<div class="work-description">
 				<div class="work-description-inner">
@@ -70,7 +69,7 @@
 					<a href="download/2.pptx" class="button button-ghost">下載說明簡報</a>
 				</p></div></div>
 			</div>
-			<div class="worksch">
+			<div class="worksch three">
 				<img class="work-img" src="image/teather.jpg" alt="導師介紹網頁">
 				<div class="work-description">
 				<div class="work-description-inner">
@@ -81,7 +80,7 @@
 					<a href="download/Sidemenu.pptx" class="button button-ghost">下載說明簡報</a>
 				</p></div></div>
 			</div>
-			<div class="worksch">
+			<div class="worksch four">
 				<img class="work-img" src="image/sql.jpg" alt="資料庫分析">
 				<div class="work-description">
 				<div class="work-description-inner">
@@ -92,7 +91,7 @@
 				<a href="download/studio.pptx" class="button button-ghost">下載說明簡報</a>
 				</p></div></div>
 			</div>
-			<div class="worksch">
+			<div class="worksch five">
 				<img class="work-img" src="image/studio.jpg" alt="尋寶手機遊戲">
 				<div class="work-description">
 				<div class="work-description-inner">
@@ -186,9 +185,16 @@
 	</section>
 	
 	<section class="contact" id="contact">
+		<h2 class="sec1head">留言板</h2>
+		<form class="contact-form">
+			<input type="text" name="name" placeholder="NAME">
+			<textarea name ="message" placeholder="MESSAGE"></textarea>
+			<input type="submit" value="SEND">
+		</form>
 	</section>
 	
 	<footer class="footer">
+		賴宇洋 Ⓒ resume site 2021/04/02 product.
 	</footer>
 	
 	<script type="text/javascript">
@@ -202,6 +208,6 @@
 		centerimg.setAttribute("src", source);
 		});
 	</script>
-	
+	<script src="lib/placeholder.min.js"></script>
 </body>
 </html>
