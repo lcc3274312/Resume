@@ -90,7 +90,7 @@ body{
 	margin:10px;
 }
 
-.about{	
+.about{
 	padding:50px 30px;
 	background-color:#fdf5e6;
 	color:#333;
@@ -147,7 +147,7 @@ body{
 	margin:40px 0;
 	line-height:1.55;
 	font-family:"微軟正黑體";
-	
+
 }
 
 .sec3first{
@@ -155,7 +155,7 @@ body{
 	float: left;
 	font-weight : bold;
 	line-height:1.55;
-	
+
 }
 .onetotwo{
 	width:100%;
@@ -191,14 +191,14 @@ body{
 .worksch{
 	position:relative;
 	display:table-cell;
-	
+
 }
 
 .work-img{
 	display:block;
 	width:100%;
 	margin:0 0 60%;
-	
+
 }
 
 .worksch::after{
@@ -242,7 +242,7 @@ body{
 	padding:10px;
 	white-space:nowrap;
 	}
-	
+
 
 .button-ghost{
 ;
